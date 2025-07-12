@@ -376,6 +376,14 @@ function draw() {
   maybeShowLeaderboard();
 }
 
+function clearLeaderboard() {
+  if (confirm("Are you sure you want to clear the leaderboard?")) {
+    localStorage.removeItem("leaderboard");
+    leaderboard = [];
+    updateLeaderboardDisplay();
+  }
+}
+
 function gameLoop() {
   update();
   draw();
