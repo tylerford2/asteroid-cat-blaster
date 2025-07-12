@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asteroid Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menu">
+    <h2>Select Difficulty</h2>
+    <button onclick="selectDifficulty('easy')">Easy (2,500 pts)</button>
+    <button onclick="selectDifficulty('medium')">Medium (5,000 pts)</button>
+    <button onclick="selectDifficulty('hard')">Hard (7,500 pts)</button>
+    <br />
+    <button id="startBtn" onclick="confirmStart()" style="display:none;">Start Game</button>
+  </div>
+
+  <canvas id="gameCanvas" width="800" height="600" style="display:none;"></canvas>
+  
+  <div id="leaderboard" style="display:none; margin-top: 20px;">
+    <h2>🏆 Leaderboard</h2>
+    <ol id="leaderboardList"></ol>
+    <button onclick="clearLeaderboard()">Clear Leaderboard</button>
+  </div>
+ <script src="game.js"></script>
+</body>
+</html>

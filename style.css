@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffc0cb; /* Pink background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Courier New', monospace;
+}
+
+canvas {
+  border: 2px solid #a34343;
+  background-color: #ffc0cb;
+  display: none;
+}
+
+#gameCanvas {
+  display: block;
+  margin: auto;
+}
+
+/* Menu Styling */
+#menu {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffe6eb;
+}
+.leaderboard {
+  display: none;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fff7d6;
+  border: 2px solid #e6b800;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.leaderboard h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.leaderboard ol {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.leaderboard button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #e6b800;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.leaderboard button:hover {
+  background-color: #d4a700;
+}
+#leaderboard {
+  display: none;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px dashed #6e3b00;
+  background-color: #fff7d6;
+  border-radius: 10px;
+  text-align: center; /* centers text AND button */
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
