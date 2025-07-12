@@ -391,3 +391,9 @@ function gameLoop() {
 }
 
 gameLoop();
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("clearLeaderboardBtn").addEventListener("click", clearLeaderboard);
+});
+
+
