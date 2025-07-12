@@ -1,5 +1,8 @@
 # 🐱 Asteroid Cat Blaster
 
+[![Watch the Demo](./thumbnail.png)](https://youtu.be/rgicynY4iVs)  
+👉 [**Click here to watch the demo**](https://youtu.be/rgicynY4iVs)
+
 A fun, retro-style JavaScript browser game where you blast space cats (yes, cats!) with your orange spaceship. Choose your difficulty, dodge incoming feline asteroids, and rack up points to reach victory. Inspired by classic arcade shooters — but fluffier.
 
 ## 🎮 Features
